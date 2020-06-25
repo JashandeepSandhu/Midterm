@@ -5,7 +5,10 @@
  */
 package status;
 
+//@modifier Jashandeep Kaur Sandhu
+//Student ID: 991548383
 import java.util.Scanner;
+
 
 /** This class takes String input from user 
  * and calls method statusDetail to print the 
@@ -24,8 +27,8 @@ public class Status {
     public static void main(String[] args)
     {
     Scanner in =new Scanner(System.in);
-    System.out.println("Enter the user status code (zero,one,two,three) in string");
-    String code = in.next();
+    System.out.println("Enter the user status code (0,1,2,3,s) in string");
+    int code = in.nextInt();
     StausUser t= new StausUser();
     t.statusDetail(code); 
     }
